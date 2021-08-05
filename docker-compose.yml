@@ -1,0 +1,11 @@
+version: "2"
+services:
+
+  esw-stock-management-extensions:
+    image: kausamusa/esw-stock-management-extensions
+    volumes:
+      - 'extensions:/extensions'
+
+volumes:
+  extensions:
+    external: false
